@@ -21,11 +21,12 @@
     /* White for buttons/text on accent */
 
     /* Fonts */
-    --default-font: 'Poppins', sans-serif;
+    --default-font: "Fjalla One", sans-serif;
     /* Clean + modern */
-    --heading-font: 'Playfair Display', serif;
-    /* Elegant for headings */
-    --nav-font: 'Poppins', sans-serif;
+    --heading-font: '"Fjalla One", sans-serif;
+
+        /* Elegant for headings */
+        --nav-font: "Fjalla One", sans-serif;
 
 
 }
@@ -321,6 +322,11 @@ section,
     overflow: hidden;
     display: flex;
     align-items: center;
+}
+
+.hero-text .font,
+h1 {
+    font-family: "Sevillana", cursive
 }
 
 .hero .background-elements {
